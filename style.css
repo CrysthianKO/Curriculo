@@ -18,9 +18,16 @@
     padding: 0;    
 }
 
+a {
+    color: currentColor;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
+    min-height: 100vh;
 }
 
 .cabecalho {
@@ -61,6 +68,7 @@ body {
     align-items: center;
     justify-content: space-around;
     gap: 2.5rem;
+    flex: 1;
 }
 
 .apresentacao__opcoes {
@@ -150,12 +158,19 @@ body {
 
 .rodape {
     display: flex;
+    flex-wrap: wrap;
+    flex: 0;
     gap: 45px;
     padding: 1% 17% 1% 0%;
     background-color: var(--cor-terciaria);
     justify-content: flex-end;
     align-items: center;
     font-family: var(--fonte-primaria);
+}
+
+.rodape:last-child {
+    flex-basis: 100%;
+    text-align: right;
 }
 
 .rodape__frase {
@@ -166,6 +181,7 @@ body {
 .rodade__contatos{
     display: flex;
     flex-direction: row;
+    /* flex: 1; */
     align-items: center;
     gap: 90px;
     font-family: var(--fonte-primaria);
@@ -181,7 +197,6 @@ body {
 }
 
 .rodape__links {
-    text-decoration: none;
     color: var(--cor-secundaria);
 }
 
