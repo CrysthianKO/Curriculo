@@ -1,6 +1,6 @@
 ## Currículo
 
-Este é o meu currículo online desenvolvido com CSS, HTML e JavaScript. É um currículo interativo e responsivo, projetado para destacar minhas habilidades e experiências como desenvolvedor web.
+Currículo online desenvolvido com intuito de praticar minhas habilidades com CSS, HTML e JavaScript. É um currículo interativo e responsivo, projetado para destacar minhas habilidades e experiências como desenvolvedor.
 
 ## Tecnologias Utilizadas
 
